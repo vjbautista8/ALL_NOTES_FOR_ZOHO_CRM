@@ -16,8 +16,8 @@ This extension is designed to streamline your workflow, providing a more organiz
 
 ## Screenshots:
 
-![Image 1](/img_1.jpg)
-![Image 1](/img_2.jpg)
-![Image 1](/img_3.jpg)
-![Image 1](/img_4.jpg)
-![Image 1](/img_5.jpg)
+![Image 1](img_1.jpg)
+![Image 1](img_2.jpg)
+![Image 1](img_3.jpg)
+![Image 1](img_4.jpg)
+![Image 1](img_5.jpg)
