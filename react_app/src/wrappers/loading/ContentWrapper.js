@@ -1,17 +1,39 @@
 import styled from 'styled-components';
 const Wrapper = styled.div`
-  margin: 1.5rem;
+  /* margin: 1.5rem; */
+  .author-page-header {
+    display: inline-flex;
+    align-items: flex-start;
+
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  .author-name-date-header {
+    padding-top: 0.5rem;
+  }
+  .note-author-img-header {
+    padding-top: 0.5rem;
+  }
+  .author-img-header {
+    height: 39px;
+    border-radius: 20%;
+    /* border: 1px solid var(--oulinePrimaryColor); */
+  }
+  .note-content-text-header {
+    font-size: medium;
+  }
   .date-content {
     font-family: var(--crm-font-bold) !important;
     color: var(--headingColor) !important;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background: var(--white);
     margin-bottom: 0.5rem;
     /* border-bottom: 1px dotted; */
     border-bottom: 2px solid var(--tableHeadBorder);
     /* border-color: var(--oulinePrimaryColor); */
-    padding-bottom: 1rem;
+    padding: 1rem;
   }
   .date-name {
     display: flex;
@@ -22,6 +44,7 @@ const Wrapper = styled.div`
   .date-icon {
     margin-right: 8px; /* Adjust the spacing between the icon and the text */
     color: var(--oulinePrimaryColor);
+    cursor: pointer;
   }
 
   .note-content-page {
@@ -30,10 +53,21 @@ const Wrapper = styled.div`
     border-radius: 1rem;
     width: 360px;
     border: 1px solid var(--oulinePrimaryColor);
-    cursor: pointer;
+    /* cursor: pointer; */
+  }
+  .note-content-page-new {
+    background: var(--white);
+    /* border-radius: var(--borderRadius); */
+    border-radius: 1rem;
+    width: 322px;
+    border: 1px solid var(--oulinePrimaryColor);
+    /* cursor: pointer; */
   }
 
   .note-content-page:hover {
+    background-color: var(--tabActiveHoverBg);
+  }
+  .note-content-page-new:hover {
     background-color: var(--tabActiveHoverBg);
   }
   .note-header {
@@ -49,7 +83,7 @@ const Wrapper = styled.div`
     width: 15%;
   }
   .note-title-content-page {
-    width: 85%;
+    /* width: 85%; */
     height: 8rem;
   }
   .note-content-tile {
@@ -91,6 +125,8 @@ const Wrapper = styled.div`
     justify-content: space-between;
   }
   .note-list-grid {
+    margin-left: 1rem;
+    /* margin-top: 1rem; */
     display: inline-flex;
     align-items: flex-start;
 
@@ -110,15 +146,53 @@ const Wrapper = styled.div`
     /* border-radius: 50%; */
     /* padding: 0.5px; */
   }
+  .content-v {
+    width: 100%;
+    display: inline-flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  .rounded-new {
+    margin: 2px;
+  }
+  .rounded-new:hover {
+    border-radius: 0%;
+  }
+  .buttons-tab-new {
+    /* display: inline-flex; */
+    align-items: flex-start;
+    flex-wrap: wrap;
+    /* gap: 1rem; */
+    background: var(--bg_white);
+    height: 81vh;
+    overflow: scroll;
+    border-radius: 0 0 1rem;
+  }
+
+  .module-name-select {
+    display: flex;
+    align-items: center;
+  }
   .module-tab-btn {
-    min-width: 10rem;
+    width: -webkit-fill-available;
+    text-align: left;
+    font-size: medium;
+    text-wrap: wrap;
+  }
+  .mrg-bot-0 {
+    margin-bottom: 0 !important;
+  }
+  .side-bar-module-btn {
   }
   @media (min-width: 1200px) {
     .note-content-page {
-      width: 280px;
+      /* width: 280px; */
+      width: 344px;
     }
     .note-list-grid {
-      height: 380px;
+      /* height: 380px; */
+      height: 81vh;
     }
   }
   @media (min-width: 768px) and (max-width: 1199.98px) {

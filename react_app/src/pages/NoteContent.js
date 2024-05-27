@@ -1,7 +1,12 @@
 import React from 'react';
 import { VscFileSubmodule } from 'react-icons/vsc';
 import { CgAttachment } from 'react-icons/cg';
+import { useSelector } from 'react-redux';
 const NoteContent = ({ note, module }) => {
+  const { PAGE, LOADING, METADATA, OPEN_SIDEBAR_MODULES } = useSelector(
+    (store) => store.user
+  );
+  //322px
   const styleBorder = {
     borderColor: module?.color,
     // color: module?.color,
@@ -9,9 +14,14 @@ const NoteContent = ({ note, module }) => {
   const textColor = {
     color: module?.color,
   };
-  console.log('styleBorder', styleBorder, module);
+  // console.log('styleBorder', styleBorder, module);
   return (
-    <div className='note-content-page' style={styleBorder}>
+    <div
+      className={`${
+        OPEN_SIDEBAR_MODULES ? 'note-content-page' : 'note-content-page-new'
+      }`}
+      style={styleBorder}
+    >
       <div className='note-header'>
         {/* <div className='note-author-img'>
           <img

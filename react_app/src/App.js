@@ -17,6 +17,13 @@ const App = ({ data }) => {
       handleStateChange({ name: 'SERVICE_ORIGIN', value: serviceOrigin })
     );
     dispatch(handleStateChange({ name: 'METADATA', value: data }));
+    dispatch(handleStateChange({ name: 'CURRENT_TAB', value: data?.Entity }));
+    dispatch(
+      handleStateChange({
+        name: 'OPTIONS_TABS',
+        value: [data?.Entity, 'Leads', 'Deals'],
+      })
+    );
   }, []);
   return <Home />;
 };

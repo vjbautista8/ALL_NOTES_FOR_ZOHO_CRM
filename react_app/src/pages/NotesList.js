@@ -4,6 +4,7 @@ import { TbFilterCog } from 'react-icons/tb';
 import { IoIosMore } from 'react-icons/io';
 import { FaEye } from 'react-icons/fa';
 import { HiViewGrid } from 'react-icons/hi';
+import { TiThMenu } from 'react-icons/ti';
 import Wrapper from '../wrappers/loading/ContentWrapper';
 import NoteContent from './NoteContent';
 import {
@@ -11,10 +12,13 @@ import {
   findObjectByKeyValue,
   sortByKey,
   sortByKeyAndValue,
+  sortListByKeyDate,
 } from '../helper';
-import { useSelector } from 'react-redux';
+import { useDispatch, useSelector } from 'react-redux';
+import { handleStateChange } from '../redux/user/userSlice';
 const NotesList = () => {
-  const { CURRENT_TAB, TABS, OPTIONS_TABS } = useSelector(
+  const dispatch = useDispatch();
+  const { CURRENT_TAB, TABS, OPTIONS_TABS, OPEN_SIDEBAR_MODULES } = useSelector(
     (store) => store.user
   );
   const noteList = [
@@ -161,7 +165,7 @@ const NotesList = () => {
   useEffect(() => {
     const key = 'module';
     const filteredList = filterByKeyAndValues(noteList, key, OPTIONS_TABS);
-    const sortedList = sortByKey(filteredList, 'date', 'asc');
+    const sortedList = sortListByKeyDate(filteredList, 'date', 'asc');
     setNoteData(sortedList);
   }, [OPTIONS_TABS]);
 
@@ -169,6 +173,17 @@ const NotesList = () => {
     <Wrapper>
       <div className='date-content'>
         <div className='date-name'>
+          <TiThMenu
+            className='date-icon'
+            onClick={() => {
+              dispatch(
+                handleStateChange({
+                  name: 'OPEN_SIDEBAR_MODULES',
+                  value: !OPEN_SIDEBAR_MODULES,
+                })
+              );
+            }}
+          />
           <TbFilterCog className='date-icon' />
           Filter
         </div>
@@ -181,19 +196,21 @@ const NotesList = () => {
         </div>
       </div>
       <div className='note-list-grid'>
-        {noteData.map((note, i) => {
-          const moduleDetails = findObjectByKeyValue(
-            TABS,
-            'name',
-            note?.module
-          );
-          console.log('moduleDetails', moduleDetails);
-          return (
-            <>
-              <NoteContent note={note} module={moduleDetails} />
-            </>
-          );
-        })}
+        <div className='content-v'>
+          {noteData.map((note, i) => {
+            const moduleDetails = findObjectByKeyValue(
+              TABS,
+              'name',
+              note?.module
+            );
+            // console.log('moduleDetails', moduleDetails);
+            return (
+              <>
+                <NoteContent note={note} module={moduleDetails} />
+              </>
+            );
+          })}
+        </div>
       </div>
     </Wrapper>
   );

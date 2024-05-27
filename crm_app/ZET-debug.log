@@ -63,3 +63,63 @@ Require stack:
 [info] [2024-05-26T19:17:26.504Z] :  ==> app\static\css\main.db43bb2e.css.map
 [info] [2024-05-26T19:17:26.504Z] :  ==> app\static\js\main.6d461a41.js.map
 [info] [2024-05-26T19:17:26.505Z] : Note - File formats that can be packed are: txt, md, xml, dre, jpg, jpeg, png, gif, css, js, html, json, mp3, svg, woff, ttf, eot, webm, mp4, and woff2
+[error] [2024-05-27T08:50:08.115Z] : × Below file formats are not allowed in Sigma
+[info] [2024-05-27T08:50:08.117Z] :  ==> app\favicon.ico
+[info] [2024-05-27T08:50:08.117Z] :  ==> app\static\css\main.db43bb2e.css.map
+[info] [2024-05-27T08:50:08.118Z] :  ==> app\static\js\main.524b38cb.js.map
+[info] [2024-05-27T08:50:08.119Z] : Note - File formats that can be packed are: txt, md, xml, dre, jpg, jpeg, png, gif, css, js, html, json, mp3, svg, woff, ttf, eot, webm, mp4, and woff2
+[error] [2024-05-27T08:50:08.126Z] : × Below file formats are not allowed in Sigma
+[info] [2024-05-27T08:50:08.126Z] :  ==> app\favicon.ico
+[info] [2024-05-27T08:50:08.127Z] :  ==> app\static\css\main.db43bb2e.css.map
+[info] [2024-05-27T08:50:08.128Z] :  ==> app\static\js\main.524b38cb.js.map
+[info] [2024-05-27T08:50:08.128Z] : Note - File formats that can be packed are: txt, md, xml, dre, jpg, jpeg, png, gif, css, js, html, json, mp3, svg, woff, ttf, eot, webm, mp4, and woff2
+[error] [2024-05-27T08:54:05.503Z] : × Below file formats are not allowed in Sigma
+[info] [2024-05-27T08:54:05.505Z] :  ==> app\favicon.ico
+[info] [2024-05-27T08:54:05.505Z] :  ==> app\static\css\main.db43bb2e.css.map
+[info] [2024-05-27T08:54:05.506Z] :  ==> app\static\js\main.5604fdbc.js.map
+[info] [2024-05-27T08:54:05.507Z] : Note - File formats that can be packed are: txt, md, xml, dre, jpg, jpeg, png, gif, css, js, html, json, mp3, svg, woff, ttf, eot, webm, mp4, and woff2
+[error] [2024-05-27T08:54:05.514Z] : × Below file formats are not allowed in Sigma
+[info] [2024-05-27T08:54:05.514Z] :  ==> app\favicon.ico
+[info] [2024-05-27T08:54:05.516Z] :  ==> app\static\css\main.db43bb2e.css.map
+[info] [2024-05-27T08:54:05.517Z] :  ==> app\static\js\main.5604fdbc.js.map
+[info] [2024-05-27T08:54:05.518Z] : Note - File formats that can be packed are: txt, md, xml, dre, jpg, jpeg, png, gif, css, js, html, json, mp3, svg, woff, ttf, eot, webm, mp4, and woff2
+[error] [2024-05-27T09:22:18.717Z] : × Below file formats are not allowed in Sigma
+[info] [2024-05-27T09:22:18.720Z] :  ==> app\favicon.ico
+[info] [2024-05-27T09:22:18.721Z] :  ==> app\static\css\main.db43bb2e.css.map
+[info] [2024-05-27T09:22:18.722Z] :  ==> app\static\js\main.523ba410.js.map
+[info] [2024-05-27T09:22:18.723Z] : Note - File formats that can be packed are: txt, md, xml, dre, jpg, jpeg, png, gif, css, js, html, json, mp3, svg, woff, ttf, eot, webm, mp4, and woff2
+[error] [2024-05-27T09:22:18.730Z] : × Below file formats are not allowed in Sigma
+[info] [2024-05-27T09:22:18.731Z] :  ==> app\favicon.ico
+[info] [2024-05-27T09:22:18.732Z] :  ==> app\static\css\main.db43bb2e.css.map
+[info] [2024-05-27T09:22:18.732Z] :  ==> app\static\js\main.523ba410.js.map
+[info] [2024-05-27T09:22:18.733Z] : Note - File formats that can be packed are: txt, md, xml, dre, jpg, jpeg, png, gif, css, js, html, json, mp3, svg, woff, ttf, eot, webm, mp4, and woff2
+[error] [2024-05-27T09:22:53.655Z] : × Below file formats are not allowed in Sigma
+[info] [2024-05-27T09:22:53.657Z] :  ==> app\favicon.ico
+[info] [2024-05-27T09:22:53.658Z] :  ==> app\static\css\main.db43bb2e.css.map
+[info] [2024-05-27T09:22:53.658Z] :  ==> app\static\js\main.990ff088.js.map
+[info] [2024-05-27T09:22:53.659Z] : Note - File formats that can be packed are: txt, md, xml, dre, jpg, jpeg, png, gif, css, js, html, json, mp3, svg, woff, ttf, eot, webm, mp4, and woff2
+[error] [2024-05-27T09:22:53.666Z] : × Below file formats are not allowed in Sigma
+[info] [2024-05-27T09:22:53.666Z] :  ==> app\favicon.ico
+[info] [2024-05-27T09:22:53.667Z] :  ==> app\static\css\main.db43bb2e.css.map
+[info] [2024-05-27T09:22:53.668Z] :  ==> app\static\js\main.990ff088.js.map
+[info] [2024-05-27T09:22:53.670Z] : Note - File formats that can be packed are: txt, md, xml, dre, jpg, jpeg, png, gif, css, js, html, json, mp3, svg, woff, ttf, eot, webm, mp4, and woff2
+[error] [2024-05-27T15:27:54.753Z] : × Below file formats are not allowed in Sigma
+[info] [2024-05-27T15:27:54.756Z] :  ==> app\favicon.ico
+[info] [2024-05-27T15:27:54.756Z] :  ==> app\static\css\main.08f7c0c3.css.map
+[info] [2024-05-27T15:27:54.756Z] :  ==> app\static\js\main.8d9e22c1.js.map
+[info] [2024-05-27T15:27:54.757Z] : Note - File formats that can be packed are: txt, md, xml, dre, jpg, jpeg, png, gif, css, js, html, json, mp3, svg, woff, ttf, eot, webm, mp4, and woff2
+[error] [2024-05-27T15:27:54.764Z] : × Below file formats are not allowed in Sigma
+[info] [2024-05-27T15:27:54.765Z] :  ==> app\favicon.ico
+[info] [2024-05-27T15:27:54.766Z] :  ==> app\static\css\main.08f7c0c3.css.map
+[info] [2024-05-27T15:27:54.767Z] :  ==> app\static\js\main.8d9e22c1.js.map
+[info] [2024-05-27T15:27:54.768Z] : Note - File formats that can be packed are: txt, md, xml, dre, jpg, jpeg, png, gif, css, js, html, json, mp3, svg, woff, ttf, eot, webm, mp4, and woff2
+[error] [2024-05-27T15:36:19.129Z] : × Below file formats are not allowed in Sigma
+[info] [2024-05-27T15:36:19.132Z] :  ==> app\favicon.ico
+[info] [2024-05-27T15:36:19.133Z] :  ==> app\static\css\main.08f7c0c3.css.map
+[info] [2024-05-27T15:36:19.133Z] :  ==> app\static\js\main.7c36f1e6.js.map
+[info] [2024-05-27T15:36:19.134Z] : Note - File formats that can be packed are: txt, md, xml, dre, jpg, jpeg, png, gif, css, js, html, json, mp3, svg, woff, ttf, eot, webm, mp4, and woff2
+[error] [2024-05-27T15:36:19.142Z] : × Below file formats are not allowed in Sigma
+[info] [2024-05-27T15:36:19.143Z] :  ==> app\favicon.ico
+[info] [2024-05-27T15:36:19.144Z] :  ==> app\static\css\main.08f7c0c3.css.map
+[info] [2024-05-27T15:36:19.144Z] :  ==> app\static\js\main.7c36f1e6.js.map
+[info] [2024-05-27T15:36:19.145Z] : Note - File formats that can be packed are: txt, md, xml, dre, jpg, jpeg, png, gif, css, js, html, json, mp3, svg, woff, ttf, eot, webm, mp4, and woff2

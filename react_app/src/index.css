@@ -37,13 +37,13 @@
   width: 10px;
   height: 10px;
   border-radius: 12px;
-
+  display: none
 }
 
 /* Track */
 ::-webkit-scrollbar-track {
   /* background: #f1f1f1; */
-  background: var(--bg_white);
+  /* background: var(--bg_white); */
   border-radius: 10px;
 }
 
@@ -30181,15 +30181,18 @@ crux-note #noteMoreFiles .dz-remove {
 
 
 .darkMainHead {
+  background: var(--bg_white);
   font-size: var(--crm-large-font-size);
   color: var(--headingColor);
   font-family: var(--crm-font-bold) !important;
   line-height: normal;
   border-bottom: 1px solid var(--br_d7e2ed);
+  border-top: 1px solid var(--br_d7e2ed);
   padding: 0.5rem;
   margin-top: 0;
   padding-left: 1rem;
   display: flex;
+  justify-content: space-between;
   /* justify-content: center; */
   /* justify-content: space-between; */
   /* background-color: var(--bg_EDF0F4); */
@@ -31093,4 +31096,14 @@ crux-note #noteMoreFiles .dz-remove {
 .timer-btn {
   background: var(--oulineredColor) !important;
   box-shadow: inset 0 -2px 0 var(--oulineredBorder) !important;
+}
+
+.page-all-notes {
+  display: grid !important;
+  grid-template-columns: 1fr 4fr;
+}
+
+.page-all-note-close {
+  display: grid !important;
+  grid-template-columns: 1fr;
 }
